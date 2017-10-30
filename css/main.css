@@ -11,3 +11,19 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
+li:first-child,
+li:nth-child(2) {
+  border-bottom: 3px solid rgba(255, 255, 255, .7)
+}
+
+.btn-ghost {
+  border-color: rgba(255, 255, 255, .8);
+  color: #fff;
+}
+
+.btn:hover {
+  border-color: rgba(255, 255, 255, 1);
+  color: #ff9500;
+  background-color: transparent;
+}
